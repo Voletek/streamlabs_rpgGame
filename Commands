@@ -1,0 +1,39 @@
+The following are standard commands that can be used in the Vole rpg
+
+!create - Creates a new hero if you don't already have one.
+!info - Show your level, eq, damage/defense, location, and specials/effects.
+!move [location] - Moves to the location and starts leveling if there are monsters.
+!buy [item] - Attempts to purchase and equip the desired weapon or armor.
+!i - condensed version of info including experience progress.
+!map - provides a current map of the landscape
+!w-store - displays a listing of the current weapons in the shop for purchase
+!a-store - displays a listing of the current weapons in the shop for purchase
+!attack [player] - This will start an attack on a nearby player which will resolve in 20 seconds. (will counter if you are attacked)
+!defend - This will give you a defense bonus and prevent looting during an attack. Will not kill attacker.
+!counter - This will attack your attacker giving you a small damage bonus.
+!flee - This will give you a large defense bonus and but you may still be looted. You go to a random location. !move will also initiate a flee to the specified location.
+!look [player] - Get an idea of your chances against a nearby player.
+!dough - check piecoin balance.
+!give [amount] [recipient] - give piecoins to a player. Giving to Piebank can remove bounty.
+!bounty [amount] [target] - place piecoins on a player's head (loot reward).
+!tax (amount) - This allows the king to tax everyone at a certain percentage (0-100).
+!queen / !king - These commands adjust some messages for gender.
+!vote [player] - Cast your vote for Pieland's hero. Must be level 5+ to vote.
+!smite [player] - Put a peasant in their place. They must be less than level 5.
+!unsmite [player] - Unban a player.
+!stat - Show the current Hero and King/Queen of MouseLand.
+
+Armor LvL 1-18
+| ClothRobe     1 | FurArmor    2 | LeatherArmor     4 | CopperArmor     6 |
+| Chainmail      8 | Platemail  10 | SilverPlatemail  12 | AssaultCuirase   14 |
+| DragonScalemail   16 | DivineAura  18 |
+
+Weapons LvL 1-27
+| Dagger    1 |  Hatchet    1  | Shortbow    1  | BootKnife   1 |  Club     1 |  Hook'NLine   1 |  Sling    1  |  
+| WoodenClub   3 |  HandAxe    3  | Glaive    3  | Bo     3 | 
+| Staff     6 |  Rapier    6  | Longbow    6  | Bullwhip    6 |  Tomahawk    6 |  ShortSword   6 |  PushDagger   6  | 
+| Compositebow   9 |  Quarterstaff   9  | Polearms    9  | Cutlass    9 |  Katara    9 |  Lance    9 |  Spear    9  | Flail    9 |  Mace      9  |  
+| BroadAxe   12 |  BoarSpear  12  | Trident   12  | LongSword  12 |  Scimitar   12 |  MorningStar  12 |  Crossbow   12  | LongSword  12 |  Pike     12  | 
+| BattleAxe  15 |  Swordstaff  15  | BroadSword  15  | Bokken   15 |  Halberd   15 |  SteelAxe   15 | 
+| GreatSword  18 |  HookSword  18  | WarHammer  18  | Poleaxe   18 |  Naboot   18 |  Katana   18 |  Eku   18  | 
+| SpiritLance  21 |  EnchantedBow  24  | DemonEdge  27  |
